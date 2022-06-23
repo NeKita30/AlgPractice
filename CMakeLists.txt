@@ -4,3 +4,4 @@ project(Practice)
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_CXX_FLAGS)
 
+add_executable(bin_search Binary_search/BinSearch.cpp)

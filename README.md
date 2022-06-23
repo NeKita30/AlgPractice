@@ -1,7 +1,8 @@
  Algorithms and data structures (MIPT, 1 year; lecturer - Stepanov I.)
 
 Algorithms:
-1)
+- Binary search algorithm
+ 
 
 Structures:
-1)
+
