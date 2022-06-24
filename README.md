@@ -2,6 +2,6 @@
 
 Algorithms:
 - Binary search algorithm
- 
+- Prefix sum algorithm 
 Structures:
 
