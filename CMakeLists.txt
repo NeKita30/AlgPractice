@@ -6,3 +6,4 @@ set(CMAKE_CXX_FLAGS)
 
 add_executable(bin_search Binary_search/BinSearch.cpp)
 add_executable(pref_sum Prefix_sum/PrefixSum.cpp)
+add_executable(stack Stack/Stack.cpp)
