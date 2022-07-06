@@ -5,3 +5,4 @@ Algorithms:
 - Prefix sum algorithm 
 Structures:
 - Stack
+- Queue
