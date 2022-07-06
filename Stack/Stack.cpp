@@ -4,9 +4,12 @@ template<typename T>
 class Stack {
 private:
     struct Node{
-        Node(T v, Node* p): val(v), prev(p) {};
+        Node(T v, Node* p): val(v), prev(p), minim(v) {
+            if (p != nullptr) minim = std::min(minim, p->minim);
+        };
         T val;
         Node* prev;
+        T minim;
     };
     Node* s = nullptr;
     size_t sz = 0;
@@ -16,6 +19,7 @@ public:
     T top();
     bool empty();
     size_t size();
+    T min();
 };
 
 template<typename T>
@@ -48,6 +52,11 @@ size_t Stack<T>::size() {
     return sz;
 }
 
+template<typename T>
+T Stack<T>::min() {
+    return s->minim;
+}
+
 int main() {
     Stack<int> st;
     st.push(10);
@@ -57,5 +66,6 @@ int main() {
     if (!st.empty()) {
         std::cout << st.size();
         std::cout << st.top();
+        std::cout << st.min();
     }
 }
