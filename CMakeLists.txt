@@ -9,3 +9,5 @@ add_executable(pref_sum Prefix_sum/PrefixSum.cpp)
 add_executable(stack Stack/Stack.cpp)
 add_executable(queue Queue/Queue.cpp)
 add_executable(queue_by_stacks Queue/QueueByTwoStack.cpp)
+add_executable(merge_sort Merge_Sort/MergeSort.cpp)
+

@@ -2,7 +2,8 @@
 
 Algorithms:
 - Binary search algorithm
-- Prefix sum algorithm 
+- Prefix sum algorithm
+- MergeSort
 Structures:
 - Stack
 - Queue (also with two stacks)
