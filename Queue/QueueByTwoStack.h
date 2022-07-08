@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Stack.h"
 
 template<typename T>
@@ -65,18 +64,4 @@ size_t Queue<T>::size() {
 template<typename T>
 bool Queue<T>::empty() {
     return add.empty() && del.empty();
-}
-
-int main() {
-    Queue<int> q;
-    q.push(1);
-    q.push(2);
-    q.push(3);
-    std::cout << q.empty() << ' ' << q.size() << '\n';
-    std::cout << q.front();
-    q.pop();
-    std::cout << q.front();
-    q.pop();
-    q.pop();
-    std::cout << q.empty() << ' ' << q.size() << '\n';
 }

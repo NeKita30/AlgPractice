@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 
 template<typename T>
@@ -28,11 +27,4 @@ int sum(const int& a, const int& b) {
 
 int arc_sum(const int& a, const int& b) {
     return a - b;
-}
-
-int main() {
-    std::vector<int> arr{1, 4, 2, 1, 5, 2, 1, 6, 3, 2};
-    int (*func)(const int&, const int&) = sum;
-    int (*arc_func)(const int&, const int&) = arc_sum;
-    std::cout << get_sum<int>(0, 8, make_pref_sums<int>(arr, sum), arc_sum);
-}
+} 

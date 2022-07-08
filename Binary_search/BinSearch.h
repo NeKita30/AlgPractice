@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 
 template<class T>
@@ -21,10 +20,4 @@ size_t bin_search(const T& val,
         return L;
     }
     return list.size();
-}
-
-int main() {
-    std::vector<int> vec{1, 4, 45, 99, 120, 212, 233, 423, 511};
-
-    std::cout << bin_search<int>(90, vec);
 }

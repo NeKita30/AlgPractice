@@ -1,4 +1,4 @@
-#include <iostream>
+#include <string>
 
 template<typename T>
 class Queue {
@@ -55,18 +55,4 @@ size_t Queue<T>::size() {
 template<typename T>
 bool Queue<T>::empty() {
     return sz == 0;
-}
-
-int main() {
-    Queue<int> q;
-    q.push(3);
-    q.push(5);
-    q.push(7);
-    std::cout << q.size() << ' ' << q.empty() << '\n';
-    std::cout << q.front();
-    q.pop();
-    std::cout << q.front() << '\n' << q.size();
-    q.pop();
-    q.pop();
-    std::cout << q.empty();
 }
