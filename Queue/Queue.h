@@ -16,7 +16,7 @@ private:
     };
     Node* s = nullptr;
     Node* l = nullptr;
-    size_t sz;
+    size_t sz = 0;
 };
 
 template<typename T>
