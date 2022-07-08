@@ -10,4 +10,5 @@ add_executable(stack Stack/Stack.cpp)
 add_executable(queue Queue/Queue.cpp)
 add_executable(queue_by_stacks Queue/QueueByTwoStack.cpp)
 add_executable(merge_sort Merge_Sort/MergeSort.cpp)
+add_executable(inversions Merge_Sort/NumberOfInversions.cpp)
 
