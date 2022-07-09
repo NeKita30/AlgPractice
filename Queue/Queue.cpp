@@ -44,7 +44,7 @@ void Queue<T>::pop() {
 
 template<typename T>
 T Queue<T>::front() {
-    return l->val;
+    return s->val;
 }
 
 template<typename T>
@@ -65,7 +65,7 @@ int main() {
     std::cout << q.size() << ' ' << q.empty() << '\n';
     std::cout << q.front();
     q.pop();
-    std::cout << q.front() << '\n' << q.size();
+    std::cout << q.front() << '\n' << q.size() << '\n';
     q.pop();
     q.pop();
     std::cout << q.empty();
