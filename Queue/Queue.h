@@ -44,7 +44,7 @@ void Queue<T>::pop() {
 
 template<typename T>
 T Queue<T>::front() {
-    return l->val;
+    return s->val;
 }
 
 template<typename T>
