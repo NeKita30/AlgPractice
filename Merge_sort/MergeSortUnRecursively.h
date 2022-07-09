@@ -42,11 +42,3 @@ void MergeSort(std::vector<T>& A) {
     }
     A = q.front();
 }
-
-int main() {
-    std::vector<int> v{1, 4, 2, 6, 5, -1, 100, 5, 9};
-    MergeSort<int>(v);
-    for (auto& x: v) {
-        std::cout << x << ' ';
-    }
-}
