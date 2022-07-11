@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -56,12 +55,4 @@ T kth(std::vector<T>& A, size_t k) {
         return m;
     }
     return kth(D, k - B.size() - C.size());
-}
-
-int main() {
-    std::vector<int> v{4, 3, 7, 6, 10, 0, 25, 15, 14, 8, -1, 13, 1, 20, -10, 22, 11};
-    std::cout << kth<int>(v, 0) << '\n';
-    std::cout << kth<int>(v, 1) << '\n';
-    std::cout << kth<int>(v, 5) << '\n';
-    std::cout << kth<int>(v, 8) << '\n';
 }

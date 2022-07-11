@@ -1,4 +1,3 @@
-#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -74,12 +73,4 @@ void QuickSort(std::vector<T>& A) {
     A.insert(A.begin(), B.begin(), B.end());
     A.insert(A.end(), C.begin(), C.end());
     A.insert(A.end(), D.begin(), D.end());
-}
-
-int main() {
-    std::vector<int> v{4, 3, 7, 6, 10, 0, 25, 15, 14, 8, -1, 13, 1, 20, -10, 22, 11};
-    QuickSort<int>(v);
-    for (auto& x: v) {
-        std::cout << x << ' ';
-    }
 }
