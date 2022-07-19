@@ -8,3 +8,4 @@ Algorithms:
 Structures:
 - Stack
 - Queue (also with two stacks)
+- Heap (also with heapify, HeapSort, decreaseKey and erase by value)
